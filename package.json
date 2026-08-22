@@ -1,0 +1,52 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "description": "NEXUS - Your computer, reimagined.",
+  "main": "desktop/electron/main.js",
+  "author": "NEXUS",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "landing": "npx --yes serve landing -p 4173",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "systeminformation": "^5.27.11"
+  },
+  "devDependencies": {
+    "electron": "^43.4.1",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.nexus.reimagined",
+    "productName": "NEXUS",
+    "asar": true,
+    "compression": "maximum",
+    "icon": "assets/icon.ico",
+    "files": [
+      "**/*",
+      "!dist/**/*",
+      "!node_modules/*/{CHANGELOG.md,README.md,README,readme.md}",
+      "!node_modules/*/{test,tests,testing,docs,examples}"
+    ],
+    "win": {
+      "icon": "assets/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}
