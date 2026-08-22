@@ -1,61 +1,32 @@
-# ⚡ HeyCoder AI Sidekick
+# NEXUS - Your computer, reimagined.
 
-HeyCoder is a fast, privacy-first, 100% free AI coding assistant built using **HTML, CSS, JavaScript, and Electron**. It integrates a feature-rich web console with a native desktop workstation, communicating directly with a free, local AI engine running on your computer.
-
-🌐 **Live Website:** [heycoder.freedev.app](http://freedev.app)
+Welcome to the official repository for NEXUS. Follow the guide below to safely download, install, and troubleshoot the application on your computer.
 
 ---
 
-## ✨ Features
+## 📥 Download & Installation Guide
 
-- **Double-Sided Ecosystem:** Use it instantly inside your web browser or download the dedicated standalone desktop software.
-- **Privacy First & Local:** The desktop app processes all code requests 100% offline directly on your own computer hardware.
-- **Sleek AI Interface:** Dark-mode optimized workbench designed specifically for viewing code snippets, variables, and algorithms.
-- **100% Free Forever:** No subscriptions, no hidden tokens, and no premium paid cloud tiers.
+### For Windows Users (`.exe`)
+Because NEXUS is a brand new application, Windows SmartScreen may protectively block the initial setup sequence because it doesn't recognize our developer signature yet. 
 
----
+If you see a popup stating **"Windows protected your PC"** or **"Your PC is not protected by this file"**, follow these simple steps to run the installer:
+1. Click on the **"More info"** link text inside the blue safety popup window.
+2. A new button will appear at the bottom of the window.
+3. Click **"Run anyway"** to safely launch the NEXUS setup wizard.
 
-## 🛠️ How It Works (The Local Brain)
-
-HeyCoder utilizes **Ollama** as its local execution model engine. To make either the web bench or the desktop application respond to your code prompts, ensure you have your local brain running:
-
-1. Download and install Ollama from [ollama.com](https://ollama.com).
-2. Open your terminal or command prompt and fetch the ultra-fast coding model:
-   ```bash
-   ollama run qwen2.5-coder:1.5b
-   ```
-3. Keep Ollama running in your system background. HeyCoder will automatically connect to your system port `http://localhost:11434` to stream code logic.
+### For Linux Users (`.AppImage`)
+1. Download the `.AppImage` file from the releases section.
+2. Right-click the downloaded file and select **Properties**.
+3. Go to the **Permissions** tab and check the box that says **"Allow executing file as program"**.
+4. Double-click the file to launch NEXUS instantly.
 
 ---
 
-## 💻 Local Desktop App Development
+## 🛠️ Reporting Issues & Support
 
-If you want to modify or compile the desktop app (`.exe`) locally from the source files:
+If you encounter any application bugs, installation crashes, or structural issues while running NEXUS, please do not hesitate to reach out. 
 
-### 1. Prerequisites
-Ensure you have **Node.js** and **npm** installed on your Windows machine.
+You can track current bugs, read active development notes, or open an official help ticket directly through our main tracking repository here:
 
-### 2. Setup & Installation
-Clone or download this project workspace directory, open your terminal inside it, and run:
-```bash
-npm install
-```
+🔗 **Official Support & Issues Link:** [github.com/abdalladev0-ship-it/HeyCoder](https://github.com)
 
-### 3. Run the App in Development Mode
-To boot up the live interactive desktop window shell interface:
-```bash
-npm start
-```
-
-### 4. Compile into a Standalone Windows Installer (`.exe`)
-To package the entire source stack into a single, portable Windows application executable:
-```bash
-npm run dist
-```
-Once completed, your installation package will be generated inside the `/dist/` folder.
-
----
-
-## 📄 License
-
-This project is open-source and available under the [Apache License](LICENSE).
