@@ -28,5 +28,30 @@ If you encounter any application bugs, installation crashes, or structural issue
 
 You can track current bugs, read active development notes, or open an official help ticket directly through our main tracking repository here:
 
-🔗 **Official Support & Issues Link:** [github.com/abdalladev0-ship-it/HeyCoder](https://github.com)
+---
+name: 🐛 Bug Report
+about: Create a report to help us improve NEXUS
+title: '[BUG] '
+labels: bug
+assignees: ''
+
+---
+
+## 📝 Bug Description
+A clear and concise description of what the bug is. What went wrong?
+
+## 💥 Expected Behavior
+A clear description of what you *expected* to happen instead.
+
+## 🖥️ System Information (Crucial)
+Please provide your computer specifications:
+- **Operating System:** [e.g., Windows 10, Windows 11, Ubuntu 24.04]
+- **NEXUS Version:** [e.g., v1.0.0]
+- **Installation Type:** [e.g., Standard Installer .exe, Portable .exe, Linux .AppImage]
+
+## 📸 Screenshots / Logs
+If applicable, add screenshots, screen recordings, or copy-paste terminal error logs here to help explain your problem.
+
+## 💡 Additional Context
+Add any other context about the problem here (e.g., "The app only crashes when I disconnect my Wi-Fi").
 
