@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="NEXUS is a powerful desktop environment for developers."
+    >
+
+    <title>NEXUS — Your Computer. Reimagined.</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a
+            href="#top"
+            class="logo"
+        >
+            <span class="logo-mark">◈</span>
+            <span>NEXUS</span>
+        </a>
+
+        <nav
+            class="desktop-nav"
+            aria-label="Main navigation"
+        >
+            <a href="#features">Features</a>
+            <a href="#start">Start</a>
+            <a href="#shortcuts">Shortcuts</a>
+            <a href="#download">Launch</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button
+                id="themeToggle"
+                class="icon-button"
+                type="button"
+                aria-label="Toggle theme"
+            >
+                ◐
+            </button>
+
+            <a
+                href="#download"
+                class="nav-download"
+            >
+                Launch
+            </a>
+
+            <button
+                id="mobileMenu"
+                class="mobile-menu"
+                type="button"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <div
+        id="mobileNav"
+        class="mobile-nav"
+    >
+        <a href="#features">Features</a>
+        <a href="#start">Start</a>
+        <a href="#shortcuts">Shortcuts</a>
+        <a href="#download">Launch</a>
+        <a href="#faq">FAQ</a>
+    </div>
+
+
+    <main id="top">
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    <span class="status-dot"></span>
+                    NEXUS DESKTOP IS READY TO RUN
+                </div>
+
+                <h1>
+                    Your computer.
+                    <span>Reimagined.</span>
+                </h1>
+
+                <p class="hero-description">
+                    NEXUS is a powerful desktop environment
+                    designed to bring your tools, files,
+                    terminal, code and system into one
+                    beautiful workspace.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a
+                        href="#download"
+                        class="primary-button"
+                    >
+                        <span>⚡</span>
+                        Launch NEXUS
+                    </a>
+
+                    <a
+                        href="#features"
+                        class="secondary-button"
+                    >
+                        Explore features
+                        <span>↓</span>
+                    </a>
+
+                </div>
+
+                <div class="platforms">
+                    <span>Currently building for</span>
+                    <span>Windows</span>
+                    <span>•</span>
+                    <span>Linux</span>
+                </div>
+
+            </div>
+
+
+            <!-- APP PREVIEW -->
+
+            <div
+                class="app-preview"
+                aria-label="NEXUS application preview"
+            >
+
+                <div class="window-bar">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="window-title">
+                        NEXUS
+                    </span>
+
+                    <span class="window-version">
+                        v1.0.0
+                    </span>
+
+                </div>
+
+
+                <div class="preview-body">
+
+                    <aside class="preview-sidebar">
+
+                        <div class="preview-logo">
+                            ◈
+                        </div>
+
+                        <div class="preview-nav active">
+                            ◉
+                        </div>
+
+                        <div class="preview-nav">
+                            ⌘
+                        </div>
+
+                        <div class="preview-nav">
+                            ▣
+                        </div>
+
+                        <div class="preview-nav">
+                            ◫
+                        </div>
+
+                        <div class="preview-nav">
+                            ⚙
+                        </div>
+
+                    </aside>
+
+
+                    <div class="preview-content">
+
+                        <div class="preview-header">
+
+                            <div>
+                                <small>
+                                    WORKSPACE
+                                </small>
+
+                                <h3>
+                                    Overview
+                                </h3>
+                            </div>
+
+                            <div class="online">
+                                <span></span>
+                                System online
+                            </div>
+
+                        </div>
+
+
+                        <div class="stats-grid">
+
+                            <div class="stat-card">
+
+                                <span>CPU</span>
+
+                                <strong>
+                                    32%
+                                </strong>
+
+                                <div class="progress">
+                                    <i style="width:32%"></i>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stat-card">
+
+                                <span>Memory</span>
+
+                                <strong>
+                                    61%
+                                </strong>
+
+                                <div class="progress">
+                                    <i style="width:61%"></i>
+                                </div>
+
+                            </div>
+
+
+                            <div class="stat-card">
+
+                                <span>Storage</span>
+
+                                <strong>
+                                    47%
+                                </strong>
+
+                                <div class="progress">
+                                    <i style="width:47%"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="preview-terminal">
+
+                            <div class="terminal-header">
+                                <span>Terminal</span>
+                                <span>● ● ●</span>
+                            </div>
+
+                            <div class="terminal-code">
+                                <span>$</span>
+                                nexus system status
+                                <br>
+
+                                <span class="terminal-success">
+                                    ✓ All systems operational
+                                </span>
+
+                                <br>
+
+                                <span>$</span>
+                                nexus launch
+                                <span class="cursor"></span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+
+        <section
+            id="features"
+            class="section"
+        >
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    BUILT DIFFERENT
+                </span>
+
+                <h2>
+                    Everything you need.
+                    <span>One place.</span>
+                </h2>
+
+                <p>
+                    NEXUS brings the tools developers use
+                    every day into one focused environment.
+                </p>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ⚡
+                    </div>
+
+                    <h3>
+                        System Monitor
+                    </h3>
+
+                    <p>
+                        Monitor CPU, memory, storage and
+                        system information using real
+                        operating-system data.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        &gt;_
+                    </div>
+
+                    <h3>
+                        Terminal
+                    </h3>
+
+                    <p>
+                        Run real commands from inside
+                        NEXUS without constantly switching
+                        applications.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        ◫
+                    </div>
+
+                    <h3>
+                        File Manager
+                    </h3>
+
+                    <p>
+                        Browse and manage your files from
+                        a fast developer-focused workspace.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        &lt;/&gt;
+                    </div>
+
+                    <h3>
+                        Code Editor
+                    </h3>
+
+                    <p>
+                        Edit your projects with syntax
+                        highlighting and developer tools.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        🤖
+                    </div>
+
+                    <h3>
+                        Local AI
+                    </h3>
+
+                    <p>
+                        Connect NEXUS to Ollama and run
+                        AI locally on your own machine.
+                    </p>
+
+                </article>
+
+
+                <article class="feature-card">
+
+                    <div class="feature-icon">
+                        🎨
+                    </div>
+
+                    <h3>
+                        Customization
+                    </h3>
+
+                    <p>
+                        Customize the NEXUS environment with
+                        themes, layouts and preferences.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+
+        <section
+            id="experience"
+            class="section experience"
+        >
+
+            <div class="experience-content">
+
+                <span class="eyebrow">
+                    THE NEXUS EXPERIENCE
+                </span>
+
+                <h2>
+                    Stop switching.
+                    <span>Start building.</span>
+                </h2>
+
+                <p>
+                    Your terminal, files, code and system
+                    information shouldn't feel like separate
+                    worlds.
+                </p>
+
+                <ul class="check-list">
+
+                    <li>
+                        <span>✓</span>
+                        Developer-first interface
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Fast Electron desktop application
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Local-first architecture
+                    </li>
+
+                    <li>
+                        <span>✓</span>
+                        Built for Windows and Linux
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="experience-card">
+
+                <div class="orb"></div>
+
+                <div class="experience-icon">
+                    ◈
+                </div>
+
+                <h3>
+                    One workspace.
+                </h3>
+
+                <p>
+                    Everything connected.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section id="start" class="section">
+            <div class="section-heading">
+                <span class="eyebrow">GET STARTED IN 60 SECONDS</span>
+                <h2>The app is already on this PC.</h2>
+                <p>NEXUS lives in your Nexus folder. Launch it, then use Files, Terminal, Editor, and local AI in one window.</p>
+            </div>
+            <div class="start-grid">
+                <article class="start-step">
+                    <span>01</span>
+                    <h3>Open a terminal</h3>
+                    <p>In File Explorer go to <code>C:\Nexus</code>.</p>
+                </article>
+                <article class="start-step">
+                    <span>02</span>
+                    <h3>Start the desktop app</h3>
+                    <p>Run <code>npm start</code> or double-click <code>start.bat</code>.</p>
+                    <button type="button" class="copy-btn" data-copy="npm start">Copy npm start</button>
+                </article>
+                <article class="start-step">
+                    <span>03</span>
+                    <h3>Turn on local AI</h3>
+                    <p>Open the AI tab. If Ollama is missing, choose Yes and NEXUS installs it plus a small fast model.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <section id="shortcuts" class="section">
+            <div class="section-heading">
+                <span class="eyebrow">KEYBOARD</span>
+                <h2>Move at the speed of thought.</h2>
+            </div>
+            <div class="shortcut-list">
+                <div><kbd>Ctrl</kbd>+<kbd>K</kbd><span>Command palette</span></div>
+                <div><kbd>Ctrl</kbd>+<kbd>O</kbd><span>Open file</span></div>
+                <div><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd><span>Open folder</span></div>
+                <div><kbd>Ctrl</kbd>+<kbd>S</kbd><span>Save editor</span></div>
+                <div><kbd>Ctrl</kbd>+<kbd>F</kbd><span>Find in file</span></div>
+                <div><kbd>Ctrl</kbd>+<kbd>N</kbd><span>New file</span></div>
+            </div>
+        </section>
+
+
+        <!-- DOWNLOAD -->
+
+        <section
+            id="download"
+            class="download-section"
+        >
+
+            <div class="download-card">
+
+                <span class="eyebrow">
+                    GET NEXUS
+                </span>
+
+                <h2>
+                    Launch
+                    <span>NEXUS</span>
+                </h2>
+
+                <p>
+                    The desktop app is in this project. Copy a command or grab the launcher script.
+                </p>
+
+
+<div class="download-options">
+
+    <!-- WINDOWS -->
+    <div class="download-option">
+
+        <div class="download-platform">
+            <strong>Windows</strong>
+
+            <span>
+                Windows 10/11 · Installer
+            </span>
+        </div>
+
+        <a
+            class="download-button"
+            href="../dist/NEXUS Setup 1.0.0.exe"
+            download
+        >
+            Download .exe
+        </a>
+
+    </div>
+
+
+    <!-- LINUX -->
+    <div class="download-option">
+
+        <div class="download-platform">
+            <strong>Linux</strong>
+
+            <span>
+                Linux · AppImage
+            </span>
+        </div>
+
+        <a
+            class="download-button"
+            href="../dist/NEXUS-1.0.0.AppImage"
+            download
+        >
+            Download AppImage
+        </a>
+
+    </div>
+
+</div>
+
+
+                <div
+                    id="downloadStatus"
+                    class="download-status"
+                    aria-live="polite"
+                >
+                    NEXUS v1.0.0 · local desktop app
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAQ -->
+
+        <section
+            id="faq"
+            class="section faq-section"
+        >
+
+            <div class="section-heading">
+
+                <span class="eyebrow">
+                    FAQ
+                </span>
+
+                <h2>
+                    Questions?
+                </h2>
+
+            </div>
+
+
+            <div class="faq-list">
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                    >
+                        What is NEXUS?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            NEXUS is a developer-focused
+                            desktop environment built with
+                            Electron.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                    >
+                        Is NEXUS free?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            The core NEXUS app is free to run from this folder with npm start.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                    >
+                        Does NEXUS require internet?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Core desktop features are
+                            designed to work locally.
+                            Optional services such as
+                            cloud AI may require internet.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="faq-item">
+
+                    <button
+                        class="faq-question"
+                        type="button"
+                    >
+                        Can I use Ollama?
+                        <span>+</span>
+                    </button>
+
+                    <div class="faq-answer">
+                        <p>
+                            Open the AI tab. If Ollama is missing, NEXUS can install it and pull llama3.2:1b for you.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-brand">
+            <span class="logo-mark">◈</span>
+            <strong>NEXUS</strong>
+        </div>
+
+        <p>
+            Your computer. Reimagined.
+        </p>
+
+        <span>
+            © 2026 NEXUS
+        </span>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
